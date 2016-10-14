@@ -91,6 +91,8 @@ final class Filho extends Jesus implements EspiritoSanto()
 }
 ```
 
+#### Um exemplo inicial
+
 ```php
 // Você é um novo filho, uma nova criatura em Cristo Jesus.
 // Somos co-herdeiros com cristo.
