@@ -27,7 +27,9 @@ trait DonsDoEspiritoSanto
 		return Deus::mandamento();
 	}
 }
+```
 
+```php
 // Espirito santo.
 interface EspiritoSanto 
 {
@@ -38,7 +40,9 @@ interface EspiritoSanto
 	public function serManso(){}
 	public function terDominioProprio(){}
 }
+```
 
+```php
 abstract class Deus 
 {
     protected static function seRelacionar(JesusCristo $filho){
@@ -53,14 +57,18 @@ abstract class Deus
 		
 	}
 }
+```
 
+```php
 abstract class JeususCristo extends Deus
 {
     public static function intercede(Filho $filho, $peticao){
 		
 	}
 }
+```
 
+```php
 // Somos co-herdeiros em cristo jesus
 final class Filho extends Jesus implements EspiritoSanto()
 {
@@ -72,7 +80,9 @@ final class Filho extends Jesus implements EspiritoSanto()
 		JesusCristo::intecede($this, $oracao)
 	}
 }
+```
 
+```php
 // Você é um novo filho, uma nova criatura em Cristo Jesus.
 // Somos co-herdeiros com cristo.
 $voce = new Filho(); 
