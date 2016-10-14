@@ -7,6 +7,7 @@ Vamos aplicar os conceitos de programação utilizando exemplos bíblico para ev
 > Esse é apenas um ponta pé inicial. Sua contribuição é muito importante. Participe desse projeto.
 
 
+#### Trait DonsDoEspiritoSanto
 
 ```php
 
@@ -29,6 +30,8 @@ trait DonsDoEspiritoSanto
 }
 ```
 
+#### Interface Espirito Santo
+
 ```php
 // Espirito santo.
 interface EspiritoSanto 
@@ -41,6 +44,8 @@ interface EspiritoSanto
 	public function terDominioProprio(){}
 }
 ```
+
+#### Class Deus
 
 ```php
 abstract class Deus 
@@ -59,6 +64,8 @@ abstract class Deus
 }
 ```
 
+#### Class jesusCristo
+
 ```php
 abstract class JeususCristo extends Deus
 {
@@ -67,6 +74,8 @@ abstract class JeususCristo extends Deus
 	}
 }
 ```
+
+#### Class Filho
 
 ```php
 // Somos co-herdeiros em cristo jesus
