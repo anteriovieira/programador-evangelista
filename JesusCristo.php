@@ -2,7 +2,7 @@
 
 abstract class JeususCristo extends Deus
 {
-    public static function intercede(Filho $filho, $peticao){
+    	public static function intercede(Filho $filho, $peticao){
 		
 	}
 }
