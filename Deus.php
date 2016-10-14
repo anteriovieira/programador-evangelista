@@ -2,15 +2,15 @@
 
 abstract class Deus 
 { 
-    protected static function seRelacionar(JesusCristo $filho){
+    	protected static function seRelacionar(JesusCristo $filho){
 		
-    }
+    	}
 
-	  private function salvar(){
+	private function salvar(){
 
-	  }
+	}
 
-	  public function exautado($louvor){
+	public function exautado($louvor){
   
-	  }
+	}
 }
